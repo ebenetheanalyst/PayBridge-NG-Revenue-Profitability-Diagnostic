@@ -1,0 +1,9 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+output/*.csv
+.vscode/
+Thumbs.db
+*.bak
+"@ | Set-Content .gitignore -Encoding utf8
